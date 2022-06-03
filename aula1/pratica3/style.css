@@ -1,0 +1,92 @@
+h1, nav{
+    margin: 0;
+    margin-top: 5px
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+body{
+    background-image: url(./assets/petpawns.png);
+}
+
+main{
+    font-family: 'Trebuchet MS', cursive;
+    width: 90%;
+    margin: auto;
+    border-radius:20px;
+    box-shadow: 0 0 5px 2px black;
+}
+
+.imagem{
+    margin: 15px 0 5px;
+    border: 1px double rgb(127, 238, 229);
+}
+
+.header{
+    height: 80px;
+    margin: 10px auto auto;
+    padding: 0 15px 0;
+    font-family: 'Trebuchet MS', cursive;
+    background-color: rgb(127, 238, 229);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: dashed rgb(53, 170, 160);
+    border-left: dashed rgb(53, 170, 160);
+    border-right: dashed rgb(53, 170, 160);
+    opacity: 98%;
+}
+
+.corpo{
+    text-align: center;
+    margin: 0 auto 0;
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border-left: dashed rgb(53, 170, 160);
+    border-right: dashed rgb(53, 170, 160);
+}
+
+
+.titulo{
+    text-align: left;
+    height: inherit;
+    line-height: 70px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 10px 15px;
+    background-color: rgb(161, 233, 227);
+    border-bottom: dashed rgb(53, 170, 160);
+    border-left: dashed rgb(53, 170, 160);
+    border-right: dashed rgb(53, 170, 160);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    opacity: 98%;
+}
+
+.navbar{
+    text-align: right;
+    height: inherit;
+    line-height: 70px;
+}
+
+.link{
+    text-decoration-line: none;
+    color: rgb(53, 170, 160);
+}
+
+.float-left{
+    float: left;
+    width: 50%;
+}
+
+.borda{
+    border: 1px solid red
+}
+
+.texto-cadastro{
+    padding: 10px 0 20px;
+}

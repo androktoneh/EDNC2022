@@ -1,0 +1,21 @@
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: purple;
+    height: 300px;
+}
+
+.one, .two{
+    float:left;
+    
+}
+
+.one{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.two{
+    background-color: red;
+}

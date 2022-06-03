@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="body container flex justify-content-center align-items-center">
+        <div id="corpoLogin" class="card-principal borda-redonda-20 borda-sombra-leve flex">
+            <div class="col-md-6 col-12 ">
+                <div class="tituloCard mb-2">Acesso ao Sistema</div>
+                <div class="formEntrada">
+                    <div class="formEntradaUser">
+                        <label for="formEntradaUser-input">
+                            <img src="./assets/user-icon.png" width="20px" class="m-1">
+                            <span class="textLabel">Usuário</span>
+                        </label>
+                        <input for="formEntradaUser-input" type="text">
+                    </div>
+                    <div class="formEntradaPassword mb-2">
+                        <label for="formEntradaPassword-input">
+                            <img src="./assets/key-icon.png" width="20px" class="m-1">
+                            <span class="textLabel">Senha</span>
+                        </label>
+                        <input id="formEntradaPassword-input" type="password">
+                    </div>
+                    <button type="button" class="btn btn-sm btn-success">Entrar</button>
+                </div>
+                <div class="rodapeLoginArea">
+                    <div>Ainda não é cadastrado? <a href="cadastro.html">Registre-se agora!</a></div>
+                    <div class="textEsqueciSenha" onclick="trocaDisplayCorpo()">
+                        Esqueci minha senha
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 imagemLoginArea">
+                <img src="./assets/develop-team.png">
+            </div>
+        </div>
+
+        <div id="corpoEsqueciSenha" class="card-esqueciSenha borda-redonda-20 borda-sombra-leve">
+            <div class="tituloCard">Esqueci a minha senha</div>
+            <div class="formEsqueciSenha">
+                <div>
+                    <label for="usuarioEsqueciSenha">Nos informe o seu usuário:</label>
+                    <input type="text" id="usuarioEsqueciSenha">
+                </div>
+                <div><span style="font-weight:bold">Ou...</span></div>
+                <div>
+                    <label for="emailEsqueciSenha">Nos informe o seu e-mail:</label>
+                    <input type="text" id="emailEsqueciSenha">
+                </div>
+            </div>
+            <div class="esqueciSenhaButtons">
+                <button type="button" class="btn btn-primary">Recuperar senha</button>
+                <div class="btn btn-secondary" onclick="trocaDisplayCorpo()">Voltar para Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script>
+    function trocaDisplayCorpo(){
+        var divLogin = document.getElementById("corpoLogin");
+        var divEsqueciSenha = document.getElementById("corpoEsqueciSenha");
+        if(divLogin.style.display != "none"){
+            divLogin.style.display = "none";
+            divEsqueciSenha.style.display = "flex";
+        }
+        else {
+            divLogin.style.display = "flex";
+            divEsqueciSenha.style.display = "none";
+        }
+    }
+</script>
+</html>

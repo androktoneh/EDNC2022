@@ -1,0 +1,22 @@
+.container{
+    width: 1000px;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+.divUm {
+    background-color: hsl(249, 53%, 31%);
+    width: inherit;
+    height: 500px;
+    box-shadow: 0 0 10px 30px rgb(115, 115, 155)
+}
+
+.divDois {
+    background-color: purple;
+    width: 500px;
+    height: 500px;
+    position:fixed;
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,8 @@
+W3Schools HTML Tags - https://www.w3schools.com/TAgs/default.asp
+Lipsum - https://www.lipsum.com/
+W3Schools CSS Properties - https://www.w3schools.com/cssref/
+
+
+- Grid: https://www.origamid.com/projetos/css-grid-layout-guia-completo/
+
+- FlexBox: https://origamid.com/projetos/flexbox-guia-completo/

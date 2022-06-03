@@ -1,0 +1,1017 @@
+.displayBlock{
+    display: block;
+}
+
+.displayInline {
+    display: inline;
+}
+
+.displayInBlock {
+    display: inline-block;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.tresColunas {
+    grid-template-columns: auto 100px 30%;
+}
+
+.duasColunas {
+    grid-template-columns: auto auto;
+}
+
+.quatroColunas {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.tresLinhas {
+    grid-template-rows: 33%  33% 33%; 
+}
+
+.cabecalho {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row: 1 / 4 ;
+}
+
+.grid-template-area {
+    display: grid;
+    grid-template-areas:
+        'hd . . . . .'
+        'sc sc sc sc . as' 
+        'sc sc sc sc . as'
+        'sc sc sc sc . as'
+        'ft ft ft ft ft ft';
+}
+
+.cabecalhoDoido{
+    grid-area: hd;
+    background-color: coral;
+
+    display: grid;
+
+    grid-template-areas:
+    'a1	a2	a3	a4	a5	a6	a7	a8	a9	a10	a11	a12	a13'
+    'b1	b2	b3	b4	b5	b6	b7	b8	b9	b10	b11	b12	b13'
+    'c1	c2	c3	c4	c5	c6	c7	c8	c9	c10	c11	c12	c13'
+    'd1	d2	d3	d4	d5	d6	d7	d8	d9	d10	d11	d12	d13'
+    'e1	e2	e3	e4	e5	e6	e7	e8	e9	e10	e11	e12	e13'
+    'f1	f2	f3	f4	f5	f6	f7	f8	f9	f10	f11	f12	f13'
+    'g1	g2	g3	g4	g5	g6	g7	g8	g9	g10	g11	g12	g13'
+    'h1	h2	h3	h4	h5	h6	h7	h8	h9	h10	h11	h12	h13'
+    'i1	i2	i3	i4	i5	i6	i7	i8	i9	i10	i11	i12	i13'
+    'j1	j2	j3	j4	j5	j6	j7	j8	j9	j10	j11	j12	j13'
+    'k1	k2	k3	k4	k5	k6	k7	k8	k9	k10	k11	k12	k13'
+    'l1	l2	l3	l4	l5	l6	l7	l8	l9	l10	l11	l12	l13'
+    'm1	m2	m3	m4	m5	m6	m7	m8	m9	m10	m11	m12	m13'
+    'n1	n2	n3	n4	n5	n6	n7	n8	n9	n10	n11	n12	n13'
+    'o1	o2	o3	o4	o5	o6	o7	o8	o9	o10	o11	o12	o13'
+    'p1	p2	p3	p4	p5	p6	p7	p8	p9	p10	p11	p12	p13';
+}
+/***************** STOPU ************************/
+
+.a1 {
+    grid-area: a1;
+    background-color: lightskyblue;
+}
+.b1 {
+    grid-area: b1;
+    background-color: lightskyblue;
+}
+.c1 {
+    grid-area: c1;
+    background-color: lightskyblue;
+}
+.d1 {
+    grid-area: d1;
+    background-color: lightskyblue;
+}
+.e1 {
+    grid-area: e1;
+    background-color: lightskyblue;
+}
+.f1 {
+    grid-area: f1;
+    background-color: lightskyblue;
+}
+.g1 {
+    grid-area: g1;
+    background-color: lightskyblue;
+}
+.h1 {
+    grid-area: h1;
+    background-color: lightskyblue;
+}
+.i1 {
+    grid-area: i1;
+    background-color: lightskyblue;
+}
+.a2 {
+    grid-area: a2;
+    background-color: lightskyblue;
+}
+.b2 {
+    grid-area: b2;
+    background-color: lightskyblue;
+}
+.c2 {
+    grid-area: c2;
+    background-color: lightskyblue;
+}
+.a3 {
+    grid-area: a3;
+    background-color: lightskyblue;
+}
+.a10 {
+    grid-area: a10;
+    background-color: lightskyblue;
+}	
+.a11 {
+    grid-area: a11;
+    background-color: lightskyblue;
+}	
+.a12 {
+    grid-area: a12;
+    background-color: lightskyblue;
+}	
+.a13 {
+    grid-area: a13;
+    background-color: lightskyblue;
+}
+.b13 {
+    grid-area: b13;
+    background-color: lightskyblue;
+}
+.c13 {
+    grid-area: c13;
+    background-color: lightskyblue;
+}
+.d13 {
+    grid-area: d13;
+    background-color: lightskyblue;
+}
+.c11 {
+    grid-area: c11;
+    background-color: lightskyblue;
+}
+.c12 {
+    grid-area: c12;
+    background-color: lightskyblue;
+}
+.f13 {
+    grid-area: f13;
+    background-color: lightskyblue;
+}
+.g13 {
+    grid-area: g13;
+    background-color: lightskyblue;
+}
+.h13 {
+    grid-area: h13;
+    background-color: lightskyblue;
+}
+.i13 {
+    grid-area: i13;
+    background-color: lightskyblue;
+}
+.j13 {
+    grid-area: j13;
+    background-color: lightskyblue;
+}
+.k13 {
+    grid-area: k13;
+    background-color: lightskyblue;
+}
+.l13 {
+    grid-area: l13;
+    background-color: lightskyblue;
+}
+.m13 {
+    grid-area: m13;
+    background-color: lightskyblue;
+}
+.n13 {
+    grid-area: n13;
+    background-color: lightskyblue;
+}
+.o13 {
+    grid-area: o13;
+    background-color: lightskyblue;
+}
+.p13 {
+    grid-area: p13;
+    background-color: lightskyblue;
+}
+.g12 {
+    grid-area: g12;
+    background-color: lightskyblue;
+}
+.h12 {
+    grid-area: h12;
+    background-color: lightskyblue;
+}
+.i12 {
+    grid-area: i12;
+    background-color: lightskyblue;
+}
+.h11 {
+    grid-area: h11;
+    background-color: lightskyblue;
+}
+.n12 {
+    grid-area: n12;
+    background-color: lightskyblue;
+}
+.o12 {
+    grid-area: o12;
+    background-color: lightskyblue;
+}
+.n11 {
+    grid-area: n11;
+    background-color: lightskyblue;
+}
+.o5 {
+    grid-area: o5;
+    background-color: lightskyblue;
+}
+.p5 {
+    grid-area: p5;
+    background-color: lightskyblue;
+}
+.n6 {
+    grid-area: n6;
+    background-color: lightskyblue;
+}
+.o6 {
+    grid-area: o6;
+    background-color: lightskyblue;
+}
+.p6 {
+    grid-area: p6;
+    background-color: lightskyblue;
+}
+.n7 {
+    grid-area: n7;
+    background-color: lightskyblue;
+}
+.o7 {
+    grid-area: o7;
+    background-color: lightskyblue;
+}
+.p7 {
+    grid-area: p7;
+    background-color: lightskyblue;
+}
+.o8 {
+    grid-area: o8;
+    background-color: lightskyblue;
+}
+.p8 {
+    grid-area: p8;
+    background-color: lightskyblue;
+}
+.n1 {
+    grid-area: n1;
+    background-color: lightskyblue;
+}
+.o1 {
+    grid-area: o1;
+    background-color: lightskyblue;
+}
+.n2 {
+    grid-area: n2;
+    background-color: lightskyblue;
+}
+
+.g2 {
+    grid-area: g2;
+    background-color: lightskyblue;
+}
+
+.g3 {
+    grid-area: g3;
+    background-color: lightskyblue;
+}
+
+.h2 {
+    grid-area: h2;
+    background-color: lightskyblue;
+}
+
+/*Vermelhos*/
+.a4 {
+    grid-area: a4;
+    background-color: red;
+}
+.a5 {
+    grid-area: a5;
+    background-color: red;
+}
+.a6 {
+    grid-area: a6;
+    background-color: red;
+}
+.a7 {
+    grid-area: a7;
+    background-color: red;
+}
+.a8 {
+    grid-area: a8;
+    background-color: red;
+}
+.a9 {
+    grid-area: a9;
+    background-color: red;
+}
+.b4 {
+    grid-area: b4;
+    background-color: red;
+}
+.b5 {
+    grid-area: b5;
+    background-color: red;
+}
+.b6 {
+    grid-area: b6;
+    background-color: red;
+}
+.b7 {
+    grid-area: b7;
+    background-color: red;
+}
+.b8 {
+    grid-area: b8;
+    background-color: red;
+}
+.b9 {
+    grid-area: b9;
+    background-color: red;
+}
+.b3 {
+    grid-area: b3;
+    background-color: red;
+}
+.b10 {
+    grid-area: b10;
+    background-color: red;
+}
+.b11 {
+    grid-area: b11;
+    background-color: red;
+}
+.b12 {
+    grid-area: b12;
+    background-color: red;
+}
+.j1 {
+    grid-area: j1;
+    background-color: red;
+}
+.i2 {
+    grid-area: i2;
+    background-color: red;
+}
+.j2 {
+    grid-area: j2;
+    background-color: red;
+}
+.h3 {
+    grid-area: h3;
+    background-color: red;
+}
+.i3 {
+    grid-area: i3;
+    background-color: red;
+}
+.j3 {
+    grid-area: j3;
+    background-color: red;
+}
+.k3 {
+    grid-area: k3;
+    background-color: red;
+}
+.h4 {
+    grid-area: h4;
+    background-color: red;
+}
+.i4 {
+    grid-area: i4;
+    background-color: red;
+}
+.j4 {
+    grid-area: j4;
+    background-color: red;
+}
+.h6 {
+    grid-area: h6;
+    background-color: red;
+}
+.h7 {
+    grid-area: h7;
+    background-color: red;
+}
+.h8 {
+    grid-area: h8;
+    background-color: red;
+}
+.h9 {
+    grid-area: h9;
+    background-color: red;
+}
+.h10 {
+    grid-area: h10;
+    background-color: red;
+}
+.i6 {
+    grid-area: i6;
+    background-color: red;
+}
+.i7 {
+    grid-area: i7;
+    background-color: red;
+}
+.i9 {
+    grid-area: i9;
+    background-color: red;
+}
+.i10 {
+    grid-area: i10;
+    background-color: red;
+}
+.i11 {
+    grid-area: i11;
+    background-color: red;
+}
+.j9 {
+    grid-area: j9;
+    background-color: red;
+}
+.j10 {
+    grid-area: j10;
+    background-color: red;
+}
+.j11 {
+    grid-area: j11;
+    background-color: red;
+}
+.j12 {
+    grid-area: j12;
+    background-color: red;
+}
+.k10 {
+    grid-area: k10;
+    background-color: red;
+}
+
+/* Azul */
+.h5 {
+    grid-area: h5;
+    background-color: blue;
+}
+.i5 {
+    grid-area: i5;
+    background-color: blue;
+}
+.j5 {
+    grid-area: j5;
+    background-color: blue;
+}
+.l5 {
+    grid-area: l5;
+    background-color: blue;
+}
+.m5 {
+    grid-area: m5;
+    background-color: blue;
+}
+.n5 {
+    grid-area: n5;
+    background-color: blue;
+}
+.j6 {
+    grid-area: j6;
+    background-color: blue;
+}
+.k6 {
+    grid-area: k6;
+    background-color: blue;
+}
+.l6 {
+    grid-area: l6;
+    background-color: blue;
+}
+.m6 {
+    grid-area: m6;
+    background-color: blue;
+}
+.j7 {
+    grid-area: j7;
+    background-color: blue;
+}
+.k7 {
+    grid-area: k7;
+    background-color: blue;
+}
+.l7 {
+    grid-area: l7;
+    background-color: blue;
+}
+.m7 {
+    grid-area: m7;
+    background-color: blue;
+}
+.i8 {
+    grid-area: i8;
+    background-color: blue;
+}
+.j8 {
+    grid-area: j8;
+    background-color: blue;
+}
+.l8 {
+    grid-area: l8;
+    background-color: blue;
+}
+.m8 {
+    grid-area: m8;
+    background-color: blue;
+}
+.n8 {
+    grid-area: n8;
+    background-color: blue;
+}
+.k9 {
+    grid-area: k9;
+    background-color: blue;
+}
+.l9 {
+    grid-area: l9;
+    background-color: blue;
+}
+.m9 {
+    grid-area: m9;
+    background-color: blue;
+}
+.n9 {
+    grid-area: n9;
+    background-color: blue;
+}
+.m10 {
+    grid-area: m10;
+    background-color: blue;
+}
+.n10 {
+    grid-area: n10;
+    background-color: blue;
+}
+.k4 {
+    grid-area: k4;
+    background-color: blue;
+}
+.l4 {
+    grid-area: l4;
+    background-color: blue;
+}
+.m4 {
+    grid-area: m4;
+    background-color: blue;
+}
+.n4 {
+    grid-area: n4;
+    background-color: blue;
+}
+.m3 {
+    grid-area: m3;
+    background-color: blue;
+}
+.n3 {
+    grid-area: n3;
+    background-color: blue;
+}
+
+/*marrom */
+.o2 {
+    grid-area: o2;
+    background-color: brown;
+}
+.o3 {
+    grid-area: o3;
+    background-color: brown;
+}
+.o4 {
+    grid-area: o4;
+    background-color: brown;
+}
+.p2 {
+    grid-area: p2;
+    background-color: brown;
+}
+.p3 {
+    grid-area: p3;
+    background-color: brown;
+}
+.p4 {
+    grid-area: p4;
+    background-color: brown;
+}
+.o9 {
+    grid-area: o9;
+    background-color: brown;
+}
+.o10 {
+    grid-area: o10;
+    background-color: brown;
+}
+.o11 {
+    grid-area: o11;
+    background-color: brown;
+}
+.p9 {
+    grid-area: p9;
+    background-color: brown;
+}
+.p10 {
+    grid-area: p10;
+    background-color: brown;
+}
+.p11 {
+    grid-area: p11;
+    background-color: brown;
+}
+.p1 {
+    grid-area: p1;
+    background-color: brown;
+}
+.p12 {
+    grid-area: p12;
+    background-color: brown;
+}
+.d2 {
+    grid-area: d2;
+    background-color: brown;
+}
+.e2 {
+    grid-area: e2;
+    background-color: brown;
+}
+.f2 {
+    grid-area: f2;
+    background-color: brown;
+}
+.f3 {
+    grid-area: f3;
+    background-color: brown;
+}
+.c3 {
+    grid-area: c3;
+    background-color: brown;
+}
+.c4 {
+    grid-area: c4;
+    background-color: brown;
+}
+.c5 {
+    grid-area: c5;
+    background-color: brown;
+}
+.d4 {
+    grid-area: d4;
+    background-color: brown;
+}
+.e4 {
+    grid-area: e4;
+    background-color: brown;
+}
+.e5 {
+    grid-area: e5;
+    background-color: brown;
+}
+
+/* rosa */
+.c6 {
+    grid-area: c6;
+    background-color: pink;
+}
+.c7 {
+    grid-area: c7;
+    background-color: pink;
+}
+.c8 {
+    grid-area: c8;
+    background-color: pink;
+}
+.d6 {
+    grid-area: d6;
+    background-color: pink;
+}
+.d7 {
+    grid-area: d7;
+    background-color: pink;
+}
+.d8 {
+    grid-area: d8;
+    background-color: pink;
+}
+.e6 {
+    grid-area: e6;
+    background-color: pink;
+}
+.e7 {
+    grid-area: e7;
+    background-color: pink;
+}
+.e8 {
+    grid-area: e8;
+    background-color: pink;
+}
+.f6 {
+    grid-area: f6;
+    background-color: pink;
+}
+.f7 {
+    grid-area: f7;
+    background-color: pink;
+}
+.f8 {
+    grid-area: f8;
+    background-color: pink;
+}
+.g6 {
+    grid-area: g6;
+    background-color: pink;
+}
+.g7 {
+    grid-area: g7;
+    background-color: pink;
+}
+.g8 {
+    grid-area: g8;
+    background-color: pink;
+}
+.f4 {
+    grid-area: f4;
+    background-color: pink;
+}
+.f5 {
+    grid-area: f5;
+    background-color: pink;
+}
+.g4 {
+    grid-area: g4;
+    background-color: pink;
+}
+.g5 {
+    grid-area: g5;
+    background-color: pink;
+}
+.d3 {
+    grid-area: d3;
+    background-color: pink;
+}
+.e3 {
+    grid-area: e3;
+    background-color: pink;
+}
+.d5 {
+    grid-area: d5;
+    background-color: pink;
+}
+.e9 {
+    grid-area: e9;
+    background-color: pink;
+}
+.c10 {
+    grid-area: c10;
+    background-color: pink;
+}
+.d10 {
+    grid-area: d10;
+    background-color: pink;
+}
+.d11 {
+    grid-area: d11;
+    background-color: pink;
+}
+.d12 {
+    grid-area: d12;
+    background-color: pink;
+}
+.e11 {
+    grid-area: e11;
+    background-color: pink;
+}
+.e12 {
+    grid-area: e12;
+    background-color: pink;
+}
+.e13 {
+    grid-area: e13;
+    background-color: pink;
+}
+.f4 {
+    grid-area: f4;
+    background-color: pink;
+}
+.f5 {
+    grid-area: f5;
+    background-color: pink;
+}
+.g4 {
+    grid-area: g4;
+    background-color: pink;
+}
+.g5 {
+    grid-area: g5;
+    background-color: pink;
+}
+.g9 {
+    grid-area: g9;
+    background-color: pink;
+}
+.g10 {
+    grid-area: g10;
+    background-color: pink;
+}
+.g11 {
+    grid-area: g11;
+    background-color: pink;
+}
+.k11 {
+    grid-area: k11;
+    background-color: pink;
+}
+.k12 {
+    grid-area: k12;
+    background-color: pink;
+}
+.l11 {
+    grid-area: l11;
+    background-color: pink;
+}
+.l12 {
+    grid-area: l12;
+    background-color: pink;
+}
+.m11 {
+    grid-area: m11;
+    background-color: pink;
+}
+.m12 {
+    grid-area: m12;
+    background-color: pink;
+}
+.l10 {
+    grid-area: l10;
+    background-color: pink;
+}
+.k1 {
+    grid-area: k1;
+    background-color: pink;
+}
+.k2 {
+    grid-area: k2;
+    background-color: pink;
+}
+.l1 {
+    grid-area: l1;
+    background-color: pink;
+}
+.l2 {
+    grid-area: l2;
+    background-color: pink;
+}
+.m1 {
+    grid-area: m1;
+    background-color: pink;
+}
+.m2 {
+    grid-area: m2;
+    background-color: pink;
+}
+.l3 {
+    grid-area: l3;
+    background-color: pink;
+}
+
+
+.f9 {
+    grid-area: f9;
+    background-color: black;
+}
+.f10 {
+    grid-area: f10;
+    background-color: black;
+}
+.f11 {
+    grid-area: f11;
+    background-color: black;
+}
+.f12 {
+    grid-area: f12;
+    background-color: black;
+}
+
+.c9 {
+    grid-area: c9;
+    background-color: black;
+}
+.d9 {
+    grid-area: d9;
+    background-color: black;
+}
+.e10 {
+    grid-area: e10;
+    background-color: black;
+}
+
+.k5 {
+    grid-area: k5;
+    background-color: gold;
+}
+
+.k8 {
+    grid-area: k8;
+    background-color: gold;
+}
+
+/***************** STOPU ************************/
+
+.sectionDoido{
+    grid-area: sc;
+    background-color: lightgreen;
+}
+
+.asideDoido {
+    grid-area: as;
+    background-color: lightseagreen;
+}
+
+.footerDoido {
+    grid-area: ft;
+    background-color: green;
+}
+
+/********************************************/
+.titulo {
+    margin: 5px auto;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.areaDisplay{
+    background-color: lightskyblue;
+    padding: 5px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto 30px;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.roxo {
+    background-color: purple;
+}
+
+.cinza {
+    background-color: gray;
+}
+
+.mini {
+    height: 50px;
+}
+
+.container {
+    padding: 5px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.gri-item {
+    text-align: center;
+}
+/***************************/

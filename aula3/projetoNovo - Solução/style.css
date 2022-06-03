@@ -1,0 +1,185 @@
+.body {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.borda-sombra-leve {
+    box-shadow: 0 0 5px 3px lightgray;
+}
+
+.borda-redonda-20 {
+    border-radius: 20px;
+}
+
+.card-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    flex-basis: 700px;
+    height: 400px;
+}
+
+.card-esqueciSenha {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 5px;
+    flex-basis: 400px;
+    height: 400px;
+}
+
+.formEsqueciSenha div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.dadosLoginArea {
+    flex: 1;
+}
+
+.imagemLoginArea {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemLoginArea img {
+    max-width: 350px;
+    flex: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.tituloCard {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formEntrada div label{
+    display: flex;
+    margin: 5px 0;
+}
+
+.formEntrada {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.formEntradaUser input, .formEntradaPassword input{
+    width: 100%;
+}
+
+.rodapeLoginArea{
+    margin-top: 10%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.textLabel {
+    font-size: 18px;
+}
+
+.textEsqueciSenha {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.bordas-card-df {
+    box-shadow: 0 0 5px 3px lightgray;
+    border-radius: 20px;
+}
+
+.card-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    flex-basis: 1000px;
+    height: 625px;
+}
+
+.areaForm {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+.formSignup {
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+}
+
+.formSignup div {
+    flex: 1;
+}
+
+.imagemSignupArea {
+    flex: 1;
+    max-width: 100%;
+}
+
+.btn-cadastro {
+    width: 100%;
+}
+
+.textoRedirectLogin{
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+@media(min-width: 769px) and (max-width: 992px){
+    .areaForm {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 768px){
+    .card-principal {
+        height: 600px;
+    }
+
+    .imagemLoginArea {
+        display: none;
+    }
+
+    .esqueciSenhaButtons {
+        width: 100%;
+    }
+
+    .esqueciSenhaButtons .btn{
+        display: block;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .formEsqueciSenha {
+        width: 100%;
+    }
+
+    .formEsqueciSenha div input[type="text"] {
+        width: 100%;
+    }
+
+    .formSignup div{
+        flex: none;
+    }
+
+    .areaForm {
+        overflow-y: scroll;
+    }
+}
